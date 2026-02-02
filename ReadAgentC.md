@@ -36,5 +36,15 @@ The agent follows a modular architecture with a clear separation between numeric
    The agent outputs a structured decision summary, including rationale and supporting metrics, suitable for investment research reporting.
 
 ---
+## LLM API Configuration
+
+This project uses an external LLM API to support the decision-making layer of the agent.
+API access is required only for generating the final BUY / HOLD / SELL recommendation.
+
+To enable LLM-based decisions, users must set their own API key as an environment variable:
+
+```bash
+export GROQ_API_KEY="your_api_key_here"
+
 
 
