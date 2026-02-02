@@ -1,6 +1,7 @@
 # 📈 AI-Driven Financial Strategy & Stock Analysis Crew
 
-This project is an advanced multi-agent financial analysis system built on the **CrewAI** framework. It automates the process of gathering market data, performing technical backtesting, and synthesizing professional investment reports. Unlike standard AI summaries, this system integrates a custom **Quantitative Backtesting Engine** to provide data-validated insights.
+This project (Agent 1) is an advanced multi-agent financial analysis system built on the **CrewAI** framework. It automates the process of gathering market data, performing technical backtesting, and synthesizing professional investment reports. Unlike standard AI summaries, this system integrates a custom **Quantitative Backtesting Engine** to provide data-validated insights.
+Agent 1 is the chosen best agent that is presented in the main branch. Other agents are involved in other branches. 
 
 ---
 
