@@ -1,0 +1,51 @@
+# BP Fundamental Analysis with AI Agents
+
+## Project Overview
+This project develops an AI-assisted system to automate fundamental equity analysis
+using BP plc as a case study. The analysis evaluates BP’s financial performance,
+risk profile, and intrinsic value based on data from 2020 to 2024.
+
+## Data Source
+- Yahoo Finance
+- Alpha Vantage
+- BP Annual Reports
+
+## Main Functions
+- Financial data collection (Income Statement, Balance Sheet, Cash Flow)
+- Data cleaning and validation
+- Financial ratio analysis
+- Free Cash Flow (FCF) calculation
+- Discounted Cash Flow (DCF) valuation
+- Dividend Discount Model (DDM) valuation
+- Relative valuation (Multiples)
+
+## File Structure
+BP-Fundamental-Analysis/
+│
+├── notebooks/
+│ └── YuxinGu--finalversion/py
+│
+├── NEW-README-AGENTB.md
+│
+└── requirements.txt
+
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+Open the notebook:
+
+jupyter notebook notebooks/analysis.ipynb
+Run all cells to reproduce the analysis.
+
+Key Output
+Profitability, liquidity, leverage, and efficiency ratios
+
+Intrinsic value estimates from DCF and DDM
+
+Comparison with current market price
+
+Risk and investment implication analysis
+
+(use a new API key, due to privacy concerns)
